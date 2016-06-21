@@ -1,0 +1,21 @@
+http://viavanilla.com/index.php?route=information/contact
+POST
+name
+email
+enquiry
+
+
+<form action="http://viavanilla.com/index.php?route=information/contact" method="post" enctype="multipart/form-data">
+        <fieldset style="border: none !important;">
+            <!--<label class="control-label" for="input-name">Nombre:</label> -->
+              <input type="text" name="name" value="" id="input-name" class="form-control" placeholder="NOMBRE">
+
+           <!-- <label class="control-label" for="input-email">Email:</label>-->
+              <input type="text" name="email" value="" id="input-email" class="form-control" placeholder="EMAIL">
+
+           <!-- <label class="control-label" for="input-enquiry">Comentario:</label>-->
+              <textarea name="enquiry" rows="10" id="input-enquiry" class="form-control" placeholder="MENSAJE"></textarea>
+
+            <input class="button active" type="submit" value="Continuar">
+        </fieldset>
+      </form>
